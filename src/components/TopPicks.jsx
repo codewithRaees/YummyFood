@@ -20,7 +20,7 @@ const TopPicks = () => {
           {topPicks.map((pickitem) => {
             const str = pickitem.title;
             const result = str.charAt(0).toUpperCase() + str.slice(1);
-            console.log(result);
+
             return (
               <SplideSlide>
                 <div className="rounded-3xl relative ">
