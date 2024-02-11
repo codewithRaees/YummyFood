@@ -12,7 +12,7 @@ const Header = () => {
   const [sideNav, setsideNave] = useState(false);
   return (
     <>
-      <div className="p-2 px-4 max-w-[1520px]  m-auto flex justify-between shadow">
+      <div className="p-3 max-w-[1520px]  m-auto flex justify-between shadow">
         <div className="menu-icon flex items-center ">
           <div
             className="menu-icon"

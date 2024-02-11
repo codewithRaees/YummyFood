@@ -6,7 +6,7 @@ const SliderTest = () => {
       name: "Rais",
     },
     {
-      name: "Muhammad",
+      name: "Hafiz Muhammad",
     },
     {
       name: "Ahmad",
