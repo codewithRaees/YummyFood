@@ -22,17 +22,19 @@ const TopPicks = () => {
             const result = str.charAt(0).toUpperCase() + str.slice(1);
 
             return (
-              <SplideSlide>
-                <div className="rounded-3xl relative ">
+              <SplideSlide key={pickitem.id}>
+                <div className="rounded-3xl relative hover:scale-105 ease-out duration-300 ">
                   <div className="absolute  text-white w-full h-full bg-black/50 rounded-3xl">
-                    <p className=" px-3 py-2 text-xl">{result}</p>
+                    <p className=" px-3 pt-3 text-xl font-bold">{result}</p>
+                    <p className=" px-3 ">{pickitem.price}</p>
                     <button className=" border-dotted border text-white border-white rounded-3xl mx-2 px-4 py-2 absolute bottom-4">
                       Add to Cart
                     </button>
                   </div>
                   <img
-                    className="h-[200px] object-cover w-full cursor-pointer rounded-3xl hover:scale-150 ease-out duration-300"
+                    className="h-[200px] object-cover w-full cursor-pointer rounded-3xl "
                     src={pickitem.img}
+                    alt={pickitem.title}
                   />
                 </div>
               </SplideSlide>
