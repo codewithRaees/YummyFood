@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css";
 const TopPicks = () => {
   return (
     <div className="p-4 hidden lg:block px-16 w-full m-auto max-w-[90%] ">
-      <h1 className="text-orange-600 text-xl font-bold text-center mb-4">
+      <h1 className="text-orange-600 text-3xl font-bold text-center mb-4">
         Top Picks
       </h1>
       <div className="hidden lg:flex max-w[1520px]  m-auto py-2 px-2 ">

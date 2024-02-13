@@ -14,7 +14,7 @@ const Ourmeal = () => {
   return (
     <div>
       <div className="px-8  py-12 w-full  max-w-[1520px] ">
-        <h1 className="text-orange-600 text-xl font-bold text-center mb-6">
+        <h1 className="text-orange-600 text-3xl font-bold text-center mb-6">
           Our Meal
         </h1>
         <div className="flex justify-center m-2">
