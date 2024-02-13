@@ -20,7 +20,7 @@ const Ourmeal = () => {
         <div className="flex justify-center m-2">
           <div className="flex justify-center m-4">
             <button
-              onClick={() => FilteredCat(mealData)}
+              onClick={() => setFood(mealData)}
               className="m-1 border-2 border-orange-700 rounded-md px-4  text-white bg-orange-700 hover:bg-orange-600 hover:border-orange-600"
             >
               All
@@ -37,13 +37,16 @@ const Ourmeal = () => {
             >
               Pizza
             </button>
-            <button className="m-1 border-2 border-orange-700 rounded-md px-4  text-white bg-orange-700 hover:bg-orange-600 hover:border-orange-600">
+            <button
+              onClick={() => FilteredCat("salad")}
+              className="m-1 border-2 border-orange-700 rounded-md px-4  text-white bg-orange-700 hover:bg-orange-600 hover:border-orange-600"
+            >
               Salad
             </button>
           </div>
         </div>
         <div className=" grid md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {mealData.map((item) => {
+          {food.map((item) => {
             const str = item.name;
             const words = str.split(" ");
 
