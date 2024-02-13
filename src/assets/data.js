@@ -103,7 +103,7 @@ export const mealData = [
   {
     id: 9,
     name: "African Salad",
-    category: "Salad",
+    category: "salad",
     image:
       "https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323870/NetflixApp/African_Salad_s7vgxn.png",
     price: "$140",
@@ -135,7 +135,7 @@ export const mealData = [
   {
     id: 13,
     name: "chiken_shawarma",
-    category: "chiken",
+    category: "chicken",
     image:
       "https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323737/NetflixApp/chiken_shawarma_c0ysna.jpg",
     price: "$100",
